@@ -48,6 +48,6 @@ entity FactureLigne {
 Client ||--o{ Location
 Location }o--|| Voiture
 Facture |o--|| Location
-Facture ||--o{ FactureDetail
+Facture ||--o{ FactureLigne
 
 @enduml
