@@ -1,0 +1,52 @@
+@startuml erd_car_reservation_logique
+
+entity Voiture {
+    numroSerie
+    marque
+    modele
+    couleur
+    dateAchat
+    dateRevision
+    descriptionFr
+}
+
+entity Location {
+    dateDebutPrevue
+    dateDebutReelle
+    dateFinPrevue
+    dateFinReelle
+    kmDebut
+    kmFin
+    essenceDebut
+    essenceFin
+}
+
+entity Client {
+    nom
+    prenom
+    dateNaissance
+    numeroPermis
+    numeroTelephone
+}
+
+entity Facture {
+    dateFacture
+    montantHorsTaxes
+    description
+    taxeTVQ
+    taxeTPS
+    montantTotal
+}
+
+entity FactureDetail {
+    prixUnitaire
+    description
+    tauxTaxes
+}
+
+Client ||--o{ Location
+Location }o--|| Voiture
+Facture |o--|| Location
+Facture ||--o{ FactureDetail
+
+@enduml
