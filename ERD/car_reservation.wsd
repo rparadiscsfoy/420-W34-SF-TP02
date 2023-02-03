@@ -15,8 +15,8 @@ entity Location {
     dateDebutReelle
     dateFinPrevue
     dateFinReelle
-    kmDebut
-    kmFin
+    odometreDebut
+    odometreFin
     essenceDebut
     essenceFin
 }
@@ -38,8 +38,9 @@ entity Facture {
     montantTotal
 }
 
-entity FactureDetail {
+entity FactureLigne {
     prixUnitaire
+    quantite
     description
     tauxTaxes
 }

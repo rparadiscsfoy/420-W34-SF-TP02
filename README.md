@@ -38,7 +38,8 @@ Votre analyste vous a indiqué quelques renseignements supplémentaires :
 - La facture est établie au retour de la voiture de location. La durée en jours de location est déterminée par la plus grande valeur obtenable avec la date de fin de location réelle ou la date de fin de location prévue moins la date de début de location réelle ou la date de début de location prévue
 - Pour établir la facture :
   - La location est facturée à la journée : 60$ par jour
-  - Frais d'essence : 3$ par litre + 50 $ de frais fixes (si la voiture est retournée avec moins d'essence que lors de la prise de possession)
+  - Frais d'essence : si la voiture est retournée avec moins d'essence que lors de la prise de possession : 3$ par litre + 50 $ de frais fixes
+  - Il y a 40 litres d'essence dans la voiture lors de la prise de possession
   - Frais de nettoyage : 30$ par nettoyage (obligatoire pour toutes les locations de plus de 1 jour)
   - Taxes : TVQ 9.975% et TPS 5%
 - Les tarifs doivent être configurables pour l'application. Par exemple, on devrait être capable de modifier facilement le tarif de location par jour, le tarif de l'essence, le tarif du nettoyage et les taxes avec une simple requête SQL (Vous faut-il une table pour cela ?) (5 points) : il n'est pas demandé de créer une interface utilisateur pour cela.
