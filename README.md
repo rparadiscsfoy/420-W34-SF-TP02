@@ -13,6 +13,7 @@
 - Vous devez utiliser votre dépôt Git pour faire votre travail : si une situation particulière est détectée, vos commits moduleront votre note dans le groupe et peut même aller jusqu'à un zéro en cas de non participation. (Attention à l'utilisation de 4 mains sur un compte Git !)
 - Durée : 4 x 3 heures + travail à la maison
 - Plate forme : SQL Server, .Net 6.0, Entity Framework, Visual Studio 2022, Git, GitHub, Léa
+- Le sujet peut être mis à jour à cette adresse : https://github.com/PiFou86/420-W34-SF-TP02/blob/main/README.md
 
 ### 1.2 - À remettre sur la plateforme d'enseignement Léa
 
