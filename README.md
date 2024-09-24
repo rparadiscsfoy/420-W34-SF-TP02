@@ -10,6 +10,8 @@
 - Toute copie de code, de portion de code, d’algorithme ou de texte doit faire mention de sa source
 - L’emprunt ou la copie de code ou de portions de code est interdite
 - Tout constat de plagiat, tricherie ou fraude sera automatiquement déclaré à la Direction et les sanctions prévues seront appliquées
+- L'utilisation de l'IA est considérée comme du plagiat si non documentée en tant que source
+- Tout code copié mais documenté comme provenant d'une autre source sera noté à 0 mais ne sera pas considéré comme du plagiat
 - Vous devez utiliser votre dépôt Git pour faire votre travail : si une situation particulière est détectée, vos commits moduleront votre note dans le groupe et peut même aller jusqu'à un zéro en cas de non participation. (Attention à l'utilisation de 4 mains sur un compte Git !)
 - Durée : 4 x 3 heures + travail à la maison
 - Plate forme : SQL Server, .Net 8.0, Entity Framework, Visual Studio 2022, Git, GitHub, Léa
