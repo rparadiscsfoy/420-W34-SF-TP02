@@ -52,7 +52,7 @@ Votre analyste vous a indiqué quelques renseignements supplémentaires :
 - Modifier le fichier `AUTHORS.md` (-10 points si non fait)
 - Écrire le script SQL permettant d'implanter l'ERD (20 points : clefs, contraintes, champs calculées, tables supplémentaires, etc.)
 - Créer des données de test (10 points)
-- Écrire les scripts suivantes (30 points) :
+- Écrire les scripts SQL (un ou plusieurs fichiers dont le nom contient une numérotation indiquant l'ordre des scripts) suivantes (30 points) :
   - Créer une procédure permettant de renvoyer les voitures disponibles pour une période donnée (une période est définie par une date de début et une date de fin) (5 points)
   - Créer une procédure permettant de renvoyer l'ensemble des voitures qui n'ont pas été louées depuis plus de 60 jours (5 points)
   - Créer une procédure permettant de renvoyer les locations du jour courant, donc les prises de possession du jour (5 points)
