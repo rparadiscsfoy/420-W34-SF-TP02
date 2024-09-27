@@ -116,7 +116,6 @@ Ces exemples de factures ont été générés par ChatGPT avec le modèle GPT-4o
 | Frais fixes essence         |     50.00 $  |    1     |      50.00 $   |      4.99 $    |     2.50 $   |    57.49 $  |
 |----------------------------|--------------|----------|----------------|----------------|--------------|-------------|
 | Total                       |              |          |                |                |              |   402.41 $  |
-|----------------------------|--------------|----------|----------------|----------------|--------------|-------------|
 
 ### Exemple 3 - Location prolongée avec carburant manquant
 - Client : Pierre Leblanc
