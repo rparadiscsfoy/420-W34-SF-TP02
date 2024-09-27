@@ -110,7 +110,6 @@ Ces exemples de factures ont été générés par ChatGPT avec le modèle GPT-4o
 - Niveau d'essence au retour : 30 litres (10 litres manquants)
 - Nettoyage nécessaire : Oui (location > 1 jour)
 
-|----------------------------|--------------|----------|----------------|----------------|--------------|-------------|
 | Description                | Prix Unitaire| Quantité | Total HT       | Total TVQ      | Total TPS    | Total TTC   |
 |----------------------------|--------------|----------|----------------|----------------|--------------|-------------|
 | Location voiture            |     60.00 $  |    4     |     240.00 $   |     23.93 $    |    12.00 $   |   275.93 $  |
@@ -132,7 +131,6 @@ Ces exemples de factures ont été générés par ChatGPT avec le modèle GPT-4o
 - Niveau d'essence au retour : 20 litres (20 litres manquants)
 - Nettoyage nécessaire : Oui (location > 1 jour)
 
-|----------------------------|--------------|----------|----------------|----------------|--------------|-------------|
 | Description                | Prix Unitaire| Quantité | Total HT       | Total TVQ      | Total TPS    | Total TTC   |
 |----------------------------|--------------|----------|----------------|----------------|--------------|-------------|
 | Location voiture            |     60.00 $  |    6     |     360.00 $   |     35.91 $    |    18.00 $   |   413.91 $  |
@@ -143,7 +141,6 @@ Ces exemples de factures ont été générés par ChatGPT avec le modèle GPT-4o
 | Sous-total                  |              |          |    500.00 $    |     49.88 $    |    25.00 $   |   574.88 $  |
 |----------------------------|--------------|----------|----------------|----------------|--------------|-------------|
 | Total                       |              |          |                |                |              |   574.88 $  |
-|----------------------------|--------------|----------|----------------|----------------|--------------|-------------|
 
 
 ## 5 - Contraintes
