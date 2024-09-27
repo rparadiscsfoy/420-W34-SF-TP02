@@ -77,7 +77,76 @@ Résumé des points :
 | 30 | Procédures |
 | 35 | Application console C# |
 
-## 4 - Contraintes
+## 4 - Exemples de factures
+
+Ces exemples de factures ont été générés par ChatGPT avec le modèle GPT-4o (Valeurs des factures en cours de validation).
+
+### Exemple 1 - Location terminée avec plein d'essence
+
+- Client : Jean Tremblay
+- Voiture : Toyota Corolla (Date de révision : 2023-07-12)
+- Date de prise de possession : 2024-09-15
+- Date de retour prévue : 2024-09-17
+- Date de retour réelle : 2024-09-17
+- Niveau d'essence au retour : 40 litres (plein d'essence)
+- Nettoyage nécessaire : Oui (location > 1 jour)
+
+| Description                | Prix Unitaire| Quantité | Total HT       | Total TVQ      | Total TPS    | Total TTC   |
+|----------------------------|--------------|----------|----------------|----------------|--------------|-------------|
+| Location voiture            |     60.00 $  |    3     |     180.00 $   |     17.96 $    |     9.00 $   |   206.96 $  |
+| Frais de nettoyage          |     30.00 $  |    1     |      30.00 $   |      2.99 $    |     1.50 $   |    34.49 $  |
+|----------------------------|--------------|----------|----------------|----------------|--------------|-------------|
+| Sous-total                  |              |          |    210.00 $    |     20.95 $    |    10.50 $   |   241.45 $  |
+|----------------------------|--------------|----------|----------------|----------------|--------------|-------------|
+| Total                       |              |          |                |                |              |   241.45 $  |
+
+### Exemple 2 - Location terminée avec carburant manquant
+
+- Client : Marie Dubois
+- Voiture : Honda Civic (Date de révision : 2024-08-05)
+- Date de prise de possession : 2024-09-20
+- Date de retour prévue : 2024-09-23
+- Date de retour réelle : 2024-09-23
+- Niveau d'essence au retour : 30 litres (10 litres manquants)
+- Nettoyage nécessaire : Oui (location > 1 jour)
+
+|----------------------------|--------------|----------|----------------|----------------|--------------|-------------|
+| Description                | Prix Unitaire| Quantité | Total HT       | Total TVQ      | Total TPS    | Total TTC   |
+|----------------------------|--------------|----------|----------------|----------------|--------------|-------------|
+| Location voiture            |     60.00 $  |    4     |     240.00 $   |     23.93 $    |    12.00 $   |   275.93 $  |
+| Frais de nettoyage          |     30.00 $  |    1     |      30.00 $   |      2.99 $    |     1.50 $   |    34.49 $  |
+| Frais d'essence (3$/litre)  |      3.00 $  |   10     |      30.00 $   |      2.99 $    |     1.50 $   |    34.49 $  |
+| Frais fixes essence         |     50.00 $  |    1     |      50.00 $   |      4.99 $    |     2.50 $   |    57.49 $  |
+|----------------------------|--------------|----------|----------------|----------------|--------------|-------------|
+| Sous-total                  |              |          |    350.00 $    |     34.91 $    |    17.50 $   |   402.41 $  |
+|----------------------------|--------------|----------|----------------|----------------|--------------|-------------|
+| Total                       |              |          |                |                |              |   402.41 $  |
+|----------------------------|--------------|----------|----------------|----------------|--------------|-------------|
+
+### Exemple 3 - Location prolongée avec carburant manquant
+- Client : Pierre Leblanc
+- Voiture : Ford Escape (Date de révision : 2024-09-01)
+- Date de prise de possession : 2024-09-10
+- Date de retour prévue : 2024-09-12
+- Date de retour réelle : 2024-09-15 (location prolongée de 3 jours)
+- Niveau d'essence au retour : 20 litres (20 litres manquants)
+- Nettoyage nécessaire : Oui (location > 1 jour)
+
+|----------------------------|--------------|----------|----------------|----------------|--------------|-------------|
+| Description                | Prix Unitaire| Quantité | Total HT       | Total TVQ      | Total TPS    | Total TTC   |
+|----------------------------|--------------|----------|----------------|----------------|--------------|-------------|
+| Location voiture            |     60.00 $  |    6     |     360.00 $   |     35.91 $    |    18.00 $   |   413.91 $  |
+| Frais de nettoyage          |     30.00 $  |    1     |      30.00 $   |      2.99 $    |     1.50 $   |    34.49 $  |
+| Frais d'essence (3$/litre)  |      3.00 $  |   20     |      60.00 $   |      5.99 $    |     3.00 $   |    68.99 $  |
+| Frais fixes essence         |     50.00 $  |    1     |      50.00 $   |      4.99 $    |     2.50 $   |    57.49 $  |
+|----------------------------|--------------|----------|----------------|----------------|--------------|-------------|
+| Sous-total                  |              |          |    500.00 $    |     49.88 $    |    25.00 $   |   574.88 $  |
+|----------------------------|--------------|----------|----------------|----------------|--------------|-------------|
+| Total                       |              |          |                |                |              |   574.88 $  |
+|----------------------------|--------------|----------|----------------|----------------|--------------|-------------|
+
+
+## 5 - Contraintes
 
 - N'oubliez pas de respecter les nomenclatures demandées en cours
 - Optimisez vos requêtes
