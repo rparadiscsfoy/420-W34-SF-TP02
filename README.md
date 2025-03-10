@@ -4,7 +4,7 @@
 
 ### 1.1 - Déroulement du TP
 
-- Remise du travail: 6 octobre 2024, 23:59
+- Remise du travail: 26 mars 2025, 23:59
 - Ce travail est réalisé en équipe de 2 personnes et seuls les membres de cette équipe y contribuent
 - Toutes les réponses fournies doivent être originales (produites par l’étudiant ou un membre de l’équipe)
 - Toute copie de code, de portion de code, d’algorithme ou de texte doit faire mention de sa source
@@ -145,7 +145,6 @@ Ces exemples de factures ont été générés par ChatGPT avec le modèle GPT-4o
 - L'évaluation tient compte :
   - du style et de la structure du code : elle doit être similaire à celle proposée en cours
   - des pratiques de programmation apprises dans le programme doivent être appliquées
-  - de la participation de chaque coéquipier avec la formule suivante : $ Min(100, note*50% + note*Min(50%,%participation))$, soit 50% de la note globale + %participation plafonné à 50% de la note globale. (Ex. note globale 110% et participation 50/50 : donne 100% à chaque personne, note globale 90 et participation 70/30 note : 90 et 72)
-  - la participation est évaluée par les commits sur Git. Si une manipulation de l'historique est détectée, l'équipe sera pénalisée avec une participation maximal de 40% par partenaire. (Venir voir l'enseignant dès que détecté avant de tomber sur un problème au moment de la correction !). Actuellement, GitInspector est utilisé pour évaluer cette participation
+  - de la participation de chaque coéquipier : les commits de chaque membre de l'équipe seront observés, mais ne seront pas représentatifs de l'évaluation de la participation. S'il y a un quelconque problème de collaboration entre les membres de l'équipe, s.v.p. adressez-vous directement au professeur et celui-ci prendra les mesures appropriées.
 
 Tout partage de code, d'explication, de bouts de texte, etc. est considéré comme du plagiat. Pour plus de détails, consultez le site (et ses vidéos) [Sois intègre du Cégep de Sainte-Foy](http://csfoy.ca/soisintegre) ainsi que [l'article 6.1.12 de la PÉA](https://www.csfoy.ca/fileadmin/documents/notre_cegep/politiques_et_reglements/5.9_PolitiqueEvaluationApprentissages_2019.pdf)
